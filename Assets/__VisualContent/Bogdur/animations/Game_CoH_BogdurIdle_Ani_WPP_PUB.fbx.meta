@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: d58888a65c0bc4086beda045c8a97c65
+timeCreated: 1478867456
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: snail_rig:beard01_bn
+    100004: snail_rig:beard02_bn
+    100006: snail_rig:beard03_bn
+    100008: snail_rig:Bind_Skeleton
+    100010: snail_rig:global_ctrl
+    100012: snail_rig:hat01_bn
+    100014: snail_rig:hat02_bn
+    100016: snail_rig:hat03_bn
+    100018: snail_rig:head_bn
+    100020: snail_rig:hip_bn
+    100022: snail_rig:l_arm_bn
+    100024: snail_rig:l_elbow_bn
+    100026: snail_rig:l_eyeball_bn
+    100028: snail_rig:l_index01_bn
+    100030: snail_rig:l_index02_bn
+    100032: snail_rig:l_lower_eyelid_bn
+    100034: snail_rig:l_moustache01_bn
+    100036: snail_rig:l_moustache02_bn
+    100038: snail_rig:l_pinky01_bn
+    100040: snail_rig:l_pinky02_bn
+    100042: snail_rig:l_tentacles01_bn
+    100044: snail_rig:l_tentacles02_bn
+    100046: snail_rig:l_tentacles03_bn
+    100048: snail_rig:l_tentacles04_bn
+    100050: snail_rig:l_thumb01_bn
+    100052: snail_rig:l_thumb02_bn
+    100054: snail_rig:l_upper_eyelid_bn
+    100056: snail_rig:l_wrist_bn
+    100058: snail_rig:Mesh_grp
+    100060: snail_rig:moustache_bn
+    100062: snail_rig:r_arm_bn
+    100064: snail_rig:r_elbow_bn
+    100066: snail_rig:r_eyeball_bn
+    100068: snail_rig:r_index01_bn
+    100070: snail_rig:r_index02_bn
+    100072: snail_rig:r_lower_eyelid_bn
+    100074: snail_rig:r_moustache01_bn
+    100076: snail_rig:r_moustache02_bn
+    100078: snail_rig:r_pinky01_bn
+    100080: snail_rig:r_pinky02_bn
+    100082: snail_rig:r_tentacles01_bn
+    100084: snail_rig:r_tentacles02_bn
+    100086: snail_rig:r_tentacles03_bn
+    100088: snail_rig:r_tentacles04_bn
+    100090: snail_rig:r_thumb01_bn
+    100092: snail_rig:r_thumb02_bn
+    100094: snail_rig:r_upper_eyelid_bn
+    100096: snail_rig:r_wrist_bn
+    100098: snail_rig:robe01_bn
+    100100: snail_rig:robe_02_bn
+    100102: snail_rig:shell_bn
+    100104: snail_rig:Snail_Mesh
+    100106: snail_rig:spine01_bn
+    100108: snail_rig:spine02_bn
+    100110: snail_rig:spine03_bn
+    100112: snail_rig:tail_bn
+    400000: //RootNode
+    400002: snail_rig:beard01_bn
+    400004: snail_rig:beard02_bn
+    400006: snail_rig:beard03_bn
+    400008: snail_rig:Bind_Skeleton
+    400010: snail_rig:global_ctrl
+    400012: snail_rig:hat01_bn
+    400014: snail_rig:hat02_bn
+    400016: snail_rig:hat03_bn
+    400018: snail_rig:head_bn
+    400020: snail_rig:hip_bn
+    400022: snail_rig:l_arm_bn
+    400024: snail_rig:l_elbow_bn
+    400026: snail_rig:l_eyeball_bn
+    400028: snail_rig:l_index01_bn
+    400030: snail_rig:l_index02_bn
+    400032: snail_rig:l_lower_eyelid_bn
+    400034: snail_rig:l_moustache01_bn
+    400036: snail_rig:l_moustache02_bn
+    400038: snail_rig:l_pinky01_bn
+    400040: snail_rig:l_pinky02_bn
+    400042: snail_rig:l_tentacles01_bn
+    400044: snail_rig:l_tentacles02_bn
+    400046: snail_rig:l_tentacles03_bn
+    400048: snail_rig:l_tentacles04_bn
+    400050: snail_rig:l_thumb01_bn
+    400052: snail_rig:l_thumb02_bn
+    400054: snail_rig:l_upper_eyelid_bn
+    400056: snail_rig:l_wrist_bn
+    400058: snail_rig:Mesh_grp
+    400060: snail_rig:moustache_bn
+    400062: snail_rig:r_arm_bn
+    400064: snail_rig:r_elbow_bn
+    400066: snail_rig:r_eyeball_bn
+    400068: snail_rig:r_index01_bn
+    400070: snail_rig:r_index02_bn
+    400072: snail_rig:r_lower_eyelid_bn
+    400074: snail_rig:r_moustache01_bn
+    400076: snail_rig:r_moustache02_bn
+    400078: snail_rig:r_pinky01_bn
+    400080: snail_rig:r_pinky02_bn
+    400082: snail_rig:r_tentacles01_bn
+    400084: snail_rig:r_tentacles02_bn
+    400086: snail_rig:r_tentacles03_bn
+    400088: snail_rig:r_tentacles04_bn
+    400090: snail_rig:r_thumb01_bn
+    400092: snail_rig:r_thumb02_bn
+    400094: snail_rig:r_upper_eyelid_bn
+    400096: snail_rig:r_wrist_bn
+    400098: snail_rig:robe01_bn
+    400100: snail_rig:robe_02_bn
+    400102: snail_rig:shell_bn
+    400104: snail_rig:Snail_Mesh
+    400106: snail_rig:spine01_bn
+    400108: snail_rig:spine02_bn
+    400110: snail_rig:spine03_bn
+    400112: snail_rig:tail_bn
+    4300000: snail_rig:Snail_Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: snail_rig:Snail_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 433
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: snail_rig:global_ctrl
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:robe01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:robe01_bn/snail_rig:robe_02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:robe01_bn/snail_rig:robe_02_bn/snail_rig:tail_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:shell_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:beard01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:beard01_bn/snail_rig:beard02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:beard01_bn/snail_rig:beard02_bn/snail_rig:beard03_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:hat01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:hat01_bn/snail_rig:hat02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:hat01_bn/snail_rig:hat02_bn/snail_rig:hat03_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn/snail_rig:l_tentacles02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn/snail_rig:l_tentacles02_bn/snail_rig:l_tentacles03_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn/snail_rig:l_tentacles02_bn/snail_rig:l_tentacles03_bn/snail_rig:l_tentacles04_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn/snail_rig:l_tentacles02_bn/snail_rig:l_tentacles03_bn/snail_rig:l_tentacles04_bn/snail_rig:l_eyeball_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn/snail_rig:l_tentacles02_bn/snail_rig:l_tentacles03_bn/snail_rig:l_tentacles04_bn/snail_rig:l_lower_eyelid_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:l_tentacles01_bn/snail_rig:l_tentacles02_bn/snail_rig:l_tentacles03_bn/snail_rig:l_tentacles04_bn/snail_rig:l_upper_eyelid_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:moustache_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:moustache_bn/snail_rig:l_moustache01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:moustache_bn/snail_rig:l_moustache01_bn/snail_rig:l_moustache02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:moustache_bn/snail_rig:r_moustache01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:moustache_bn/snail_rig:r_moustache01_bn/snail_rig:r_moustache02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn/snail_rig:r_tentacles02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn/snail_rig:r_tentacles02_bn/snail_rig:r_tentacles03_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn/snail_rig:r_tentacles02_bn/snail_rig:r_tentacles03_bn/snail_rig:r_tentacles04_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn/snail_rig:r_tentacles02_bn/snail_rig:r_tentacles03_bn/snail_rig:r_tentacles04_bn/snail_rig:r_eyeball_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn/snail_rig:r_tentacles02_bn/snail_rig:r_tentacles03_bn/snail_rig:r_tentacles04_bn/snail_rig:r_lower_eyelid_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:head_bn/snail_rig:r_tentacles01_bn/snail_rig:r_tentacles02_bn/snail_rig:r_tentacles03_bn/snail_rig:r_tentacles04_bn/snail_rig:r_upper_eyelid_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn/snail_rig:l_index01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn/snail_rig:l_index01_bn/snail_rig:l_index02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn/snail_rig:l_pinky01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn/snail_rig:l_pinky01_bn/snail_rig:l_pinky02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn/snail_rig:l_thumb01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:l_arm_bn/snail_rig:l_elbow_bn/snail_rig:l_wrist_bn/snail_rig:l_thumb01_bn/snail_rig:l_thumb02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn/snail_rig:r_index01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn/snail_rig:r_index01_bn/snail_rig:r_index02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn/snail_rig:r_pinky01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn/snail_rig:r_pinky01_bn/snail_rig:r_pinky02_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn/snail_rig:r_thumb01_bn
+        weight: 1
+      - path: snail_rig:global_ctrl/snail_rig:Bind_Skeleton/snail_rig:hip_bn/snail_rig:spine01_bn/snail_rig:spine02_bn/snail_rig:spine03_bn/snail_rig:r_arm_bn/snail_rig:r_elbow_bn/snail_rig:r_wrist_bn/snail_rig:r_thumb01_bn/snail_rig:r_thumb02_bn
+        weight: 1
+      - path: snail_rig:Mesh_grp
+        weight: 1
+      - path: snail_rig:Mesh_grp/snail_rig:Snail_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 568e42fa3a2e243059add7ef71ed7952
+timeCreated: 1479283464
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Snail02_texturedRig:Bind_Skeleton
+    100004: Snail02_texturedRig:Char02_Mesh
+    100006: Snail02_texturedRig:Char02_Mesh_grp
+    100008: Snail02_texturedRig:chest_bn
+    100010: Snail02_texturedRig:cloak01_bn
+    100012: Snail02_texturedRig:cloak02_bn
+    100014: Snail02_texturedRig:cloak03_bn
+    100016: Snail02_texturedRig:cloak04_bn
+    100018: Snail02_texturedRig:global_ctrl
+    100020: Snail02_texturedRig:head_bn
+    100022: Snail02_texturedRig:hip_bn
+    100024: Snail02_texturedRig:innerBeard01_bn
+    100026: Snail02_texturedRig:innerBeard02_bn
+    100028: Snail02_texturedRig:innerBeard03_bn
+    100030: Snail02_texturedRig:l_arm_bn
+    100032: Snail02_texturedRig:l_clavical_bn
+    100034: Snail02_texturedRig:l_elbow_bn
+    100036: Snail02_texturedRig:l_horn_bn
+    100038: Snail02_texturedRig:l_index01_bn
+    100040: Snail02_texturedRig:l_index02_bn
+    100042: Snail02_texturedRig:l_inner_cloakTentacle01_bn
+    100044: Snail02_texturedRig:l_inner_cloakTentacle02_bn
+    100046: Snail02_texturedRig:l_inner_cloakTentacle03_bn
+    100048: Snail02_texturedRig:l_innerBeard01_bn
+    100050: Snail02_texturedRig:l_innerBeard02_bn
+    100052: Snail02_texturedRig:l_innerBeard03_bn
+    100054: Snail02_texturedRig:l_mid01_bn
+    100056: Snail02_texturedRig:l_mid02_bn
+    100058: Snail02_texturedRig:l_mid_cloakTentacle01_bn
+    100060: Snail02_texturedRig:l_mid_cloakTentacle02_bn
+    100062: Snail02_texturedRig:l_mid_cloakTentacle03_bn
+    100064: Snail02_texturedRig:l_outer_cloakTentacle01_bn
+    100066: Snail02_texturedRig:l_outer_cloakTentacle02_bn
+    100068: Snail02_texturedRig:l_outer_cloakTentacle03_bn
+    100070: Snail02_texturedRig:l_outerBeard01_bn
+    100072: Snail02_texturedRig:l_outerBeard02_bn
+    100074: Snail02_texturedRig:l_outerBeard03_bn
+    100076: Snail02_texturedRig:l_pinky01_bn
+    100078: Snail02_texturedRig:l_pinky02_bn
+    100080: Snail02_texturedRig:l_thumb01_bn
+    100082: Snail02_texturedRig:l_thumb02_bn
+    100084: Snail02_texturedRig:l_twist_arm_bn
+    100086: Snail02_texturedRig:l_wrist_bn
+    100088: Snail02_texturedRig:neck01_bn
+    100090: Snail02_texturedRig:neck02_bn
+    100092: Snail02_texturedRig:neck03_bn
+    100094: Snail02_texturedRig:r_arm_bn
+    100096: Snail02_texturedRig:r_clavical_bn
+    100098: Snail02_texturedRig:r_elbow_bn
+    100100: Snail02_texturedRig:r_horn_bn
+    100102: Snail02_texturedRig:r_index01_bn
+    100104: Snail02_texturedRig:r_index02_bn
+    100106: Snail02_texturedRig:r_inner_cloakTentacle01_bn
+    100108: Snail02_texturedRig:r_inner_cloakTentacle02_bn
+    100110: Snail02_texturedRig:r_inner_cloakTentacle03_bn
+    100112: Snail02_texturedRig:r_innerBeard01_bn
+    100114: Snail02_texturedRig:r_innerBeard02_bn
+    100116: Snail02_texturedRig:r_innerBeard03_bn
+    100118: Snail02_texturedRig:r_mid01_bn
+    100120: Snail02_texturedRig:r_mid02_bn
+    100122: Snail02_texturedRig:r_mid_cloakTentacle01_bn
+    100124: Snail02_texturedRig:r_mid_cloakTentacle02_bn
+    100126: Snail02_texturedRig:r_mid_cloakTentacle03_bn
+    100128: Snail02_texturedRig:r_outer_cloakTentacle01_bn
+    100130: Snail02_texturedRig:r_outer_cloakTentacle02_bn
+    100132: Snail02_texturedRig:r_outer_cloakTentacle03_bn
+    100134: Snail02_texturedRig:r_outerBeard01_bn
+    100136: Snail02_texturedRig:r_outerBeard02_bn
+    100138: Snail02_texturedRig:r_outerBeard03_bn
+    100140: Snail02_texturedRig:r_pinky01_bn
+    100142: Snail02_texturedRig:r_pinky02_bn
+    100144: Snail02_texturedRig:r_thumb01_bn
+    100146: Snail02_texturedRig:r_thumb02_bn
+    100148: Snail02_texturedRig:r_twist_arm_bn
+    100150: Snail02_texturedRig:r_wrist_bn
+    100152: Snail02_texturedRig:shell01_bn
+    100154: Snail02_texturedRig:shell02_bn
+    100156: Snail02_texturedRig:shell03_bn
+    100158: Snail02_texturedRig:shell04_bn
+    100160: Snail02_texturedRig:shell05_bn
+    100162: Snail02_texturedRig:spine01_bn
+    100164: Snail02_texturedRig:spine02_bn
+    400000: //RootNode
+    400002: Snail02_texturedRig:Bind_Skeleton
+    400004: Snail02_texturedRig:Char02_Mesh
+    400006: Snail02_texturedRig:Char02_Mesh_grp
+    400008: Snail02_texturedRig:chest_bn
+    400010: Snail02_texturedRig:cloak01_bn
+    400012: Snail02_texturedRig:cloak02_bn
+    400014: Snail02_texturedRig:cloak03_bn
+    400016: Snail02_texturedRig:cloak04_bn
+    400018: Snail02_texturedRig:global_ctrl
+    400020: Snail02_texturedRig:head_bn
+    400022: Snail02_texturedRig:hip_bn
+    400024: Snail02_texturedRig:innerBeard01_bn
+    400026: Snail02_texturedRig:innerBeard02_bn
+    400028: Snail02_texturedRig:innerBeard03_bn
+    400030: Snail02_texturedRig:l_arm_bn
+    400032: Snail02_texturedRig:l_clavical_bn
+    400034: Snail02_texturedRig:l_elbow_bn
+    400036: Snail02_texturedRig:l_horn_bn
+    400038: Snail02_texturedRig:l_index01_bn
+    400040: Snail02_texturedRig:l_index02_bn
+    400042: Snail02_texturedRig:l_inner_cloakTentacle01_bn
+    400044: Snail02_texturedRig:l_inner_cloakTentacle02_bn
+    400046: Snail02_texturedRig:l_inner_cloakTentacle03_bn
+    400048: Snail02_texturedRig:l_innerBeard01_bn
+    400050: Snail02_texturedRig:l_innerBeard02_bn
+    400052: Snail02_texturedRig:l_innerBeard03_bn
+    400054: Snail02_texturedRig:l_mid01_bn
+    400056: Snail02_texturedRig:l_mid02_bn
+    400058: Snail02_texturedRig:l_mid_cloakTentacle01_bn
+    400060: Snail02_texturedRig:l_mid_cloakTentacle02_bn
+    400062: Snail02_texturedRig:l_mid_cloakTentacle03_bn
+    400064: Snail02_texturedRig:l_outer_cloakTentacle01_bn
+    400066: Snail02_texturedRig:l_outer_cloakTentacle02_bn
+    400068: Snail02_texturedRig:l_outer_cloakTentacle03_bn
+    400070: Snail02_texturedRig:l_outerBeard01_bn
+    400072: Snail02_texturedRig:l_outerBeard02_bn
+    400074: Snail02_texturedRig:l_outerBeard03_bn
+    400076: Snail02_texturedRig:l_pinky01_bn
+    400078: Snail02_texturedRig:l_pinky02_bn
+    400080: Snail02_texturedRig:l_thumb01_bn
+    400082: Snail02_texturedRig:l_thumb02_bn
+    400084: Snail02_texturedRig:l_twist_arm_bn
+    400086: Snail02_texturedRig:l_wrist_bn
+    400088: Snail02_texturedRig:neck01_bn
+    400090: Snail02_texturedRig:neck02_bn
+    400092: Snail02_texturedRig:neck03_bn
+    400094: Snail02_texturedRig:r_arm_bn
+    400096: Snail02_texturedRig:r_clavical_bn
+    400098: Snail02_texturedRig:r_elbow_bn
+    400100: Snail02_texturedRig:r_horn_bn
+    400102: Snail02_texturedRig:r_index01_bn
+    400104: Snail02_texturedRig:r_index02_bn
+    400106: Snail02_texturedRig:r_inner_cloakTentacle01_bn
+    400108: Snail02_texturedRig:r_inner_cloakTentacle02_bn
+    400110: Snail02_texturedRig:r_inner_cloakTentacle03_bn
+    400112: Snail02_texturedRig:r_innerBeard01_bn
+    400114: Snail02_texturedRig:r_innerBeard02_bn
+    400116: Snail02_texturedRig:r_innerBeard03_bn
+    400118: Snail02_texturedRig:r_mid01_bn
+    400120: Snail02_texturedRig:r_mid02_bn
+    400122: Snail02_texturedRig:r_mid_cloakTentacle01_bn
+    400124: Snail02_texturedRig:r_mid_cloakTentacle02_bn
+    400126: Snail02_texturedRig:r_mid_cloakTentacle03_bn
+    400128: Snail02_texturedRig:r_outer_cloakTentacle01_bn
+    400130: Snail02_texturedRig:r_outer_cloakTentacle02_bn
+    400132: Snail02_texturedRig:r_outer_cloakTentacle03_bn
+    400134: Snail02_texturedRig:r_outerBeard01_bn
+    400136: Snail02_texturedRig:r_outerBeard02_bn
+    400138: Snail02_texturedRig:r_outerBeard03_bn
+    400140: Snail02_texturedRig:r_pinky01_bn
+    400142: Snail02_texturedRig:r_pinky02_bn
+    400144: Snail02_texturedRig:r_thumb01_bn
+    400146: Snail02_texturedRig:r_thumb02_bn
+    400148: Snail02_texturedRig:r_twist_arm_bn
+    400150: Snail02_texturedRig:r_wrist_bn
+    400152: Snail02_texturedRig:shell01_bn
+    400154: Snail02_texturedRig:shell02_bn
+    400156: Snail02_texturedRig:shell03_bn
+    400158: Snail02_texturedRig:shell04_bn
+    400160: Snail02_texturedRig:shell05_bn
+    400162: Snail02_texturedRig:spine01_bn
+    400164: Snail02_texturedRig:spine02_bn
+    4300000: Snail02_texturedRig:Char02_Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Snail02_texturedRig:Char02_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 201
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Snail02_texturedRig:Char02_Mesh_grp
+        weight: 1
+      - path: Snail02_texturedRig:Char02_Mesh_grp/Snail02_texturedRig:Char02_Mesh
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_inner_cloakTentacle01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_inner_cloakTentacle01_bn/Snail02_texturedRig:l_inner_cloakTentacle02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_inner_cloakTentacle01_bn/Snail02_texturedRig:l_inner_cloakTentacle02_bn/Snail02_texturedRig:l_inner_cloakTentacle03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_mid_cloakTentacle01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_mid_cloakTentacle01_bn/Snail02_texturedRig:l_mid_cloakTentacle02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_mid_cloakTentacle01_bn/Snail02_texturedRig:l_mid_cloakTentacle02_bn/Snail02_texturedRig:l_mid_cloakTentacle03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_outer_cloakTentacle01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_outer_cloakTentacle01_bn/Snail02_texturedRig:l_outer_cloakTentacle02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:l_outer_cloakTentacle01_bn/Snail02_texturedRig:l_outer_cloakTentacle02_bn/Snail02_texturedRig:l_outer_cloakTentacle03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_inner_cloakTentacle01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_inner_cloakTentacle01_bn/Snail02_texturedRig:r_inner_cloakTentacle02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_inner_cloakTentacle01_bn/Snail02_texturedRig:r_inner_cloakTentacle02_bn/Snail02_texturedRig:r_inner_cloakTentacle03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_mid_cloakTentacle01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_mid_cloakTentacle01_bn/Snail02_texturedRig:r_mid_cloakTentacle02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_mid_cloakTentacle01_bn/Snail02_texturedRig:r_mid_cloakTentacle02_bn/Snail02_texturedRig:r_mid_cloakTentacle03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_outer_cloakTentacle01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_outer_cloakTentacle01_bn/Snail02_texturedRig:r_outer_cloakTentacle02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:cloak01_bn/Snail02_texturedRig:cloak02_bn/Snail02_texturedRig:cloak03_bn/Snail02_texturedRig:cloak04_bn/Snail02_texturedRig:r_outer_cloakTentacle01_bn/Snail02_texturedRig:r_outer_cloakTentacle02_bn/Snail02_texturedRig:r_outer_cloakTentacle03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_index01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_index01_bn/Snail02_texturedRig:l_index02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_mid01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_mid01_bn/Snail02_texturedRig:l_mid02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_pinky01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_pinky01_bn/Snail02_texturedRig:l_pinky02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_thumb01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:l_clavical_bn/Snail02_texturedRig:l_arm_bn/Snail02_texturedRig:l_elbow_bn/Snail02_texturedRig:l_twist_arm_bn/Snail02_texturedRig:l_wrist_bn/Snail02_texturedRig:l_thumb01_bn/Snail02_texturedRig:l_thumb02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:innerBeard01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:innerBeard01_bn/Snail02_texturedRig:innerBeard02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:innerBeard01_bn/Snail02_texturedRig:innerBeard02_bn/Snail02_texturedRig:innerBeard03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_horn_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_innerBeard01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_innerBeard01_bn/Snail02_texturedRig:l_innerBeard02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_innerBeard01_bn/Snail02_texturedRig:l_innerBeard02_bn/Snail02_texturedRig:l_innerBeard03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_outerBeard01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_outerBeard01_bn/Snail02_texturedRig:l_outerBeard02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:l_outerBeard01_bn/Snail02_texturedRig:l_outerBeard02_bn/Snail02_texturedRig:l_outerBeard03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_horn_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_innerBeard01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_innerBeard01_bn/Snail02_texturedRig:r_innerBeard02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_innerBeard01_bn/Snail02_texturedRig:r_innerBeard02_bn/Snail02_texturedRig:r_innerBeard03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_outerBeard01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_outerBeard01_bn/Snail02_texturedRig:r_outerBeard02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:neck01_bn/Snail02_texturedRig:neck02_bn/Snail02_texturedRig:neck03_bn/Snail02_texturedRig:head_bn/Snail02_texturedRig:r_outerBeard01_bn/Snail02_texturedRig:r_outerBeard02_bn/Snail02_texturedRig:r_outerBeard03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_index01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_index01_bn/Snail02_texturedRig:r_index02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_mid01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_mid01_bn/Snail02_texturedRig:r_mid02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_pinky01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_pinky01_bn/Snail02_texturedRig:r_pinky02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_thumb01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:r_clavical_bn/Snail02_texturedRig:r_arm_bn/Snail02_texturedRig:r_elbow_bn/Snail02_texturedRig:r_twist_arm_bn/Snail02_texturedRig:r_wrist_bn/Snail02_texturedRig:r_thumb01_bn/Snail02_texturedRig:r_thumb02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:shell01_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:shell01_bn/Snail02_texturedRig:shell02_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:shell01_bn/Snail02_texturedRig:shell02_bn/Snail02_texturedRig:shell03_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:shell01_bn/Snail02_texturedRig:shell02_bn/Snail02_texturedRig:shell03_bn/Snail02_texturedRig:shell04_bn
+        weight: 1
+      - path: Snail02_texturedRig:global_ctrl/Snail02_texturedRig:Bind_Skeleton/Snail02_texturedRig:hip_bn/Snail02_texturedRig:spine01_bn/Snail02_texturedRig:spine02_bn/Snail02_texturedRig:chest_bn/Snail02_texturedRig:shell01_bn/Snail02_texturedRig:shell02_bn/Snail02_texturedRig:shell03_bn/Snail02_texturedRig:shell04_bn/Snail02_texturedRig:shell05_bn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

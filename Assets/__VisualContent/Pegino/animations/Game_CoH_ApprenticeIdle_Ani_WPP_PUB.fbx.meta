@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: ec023421c53dd496c816c060d6b595f5
+timeCreated: 1479760856
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Apprentice:Bind_skeleton
+    100002: Apprentice:Char03_mesh
+    100004: Apprentice:chest_bn
+    100006: Apprentice:crest_back_bn
+    100008: Apprentice:crest_front_bn
+    100010: Apprentice:crest_mid_bn
+    100012: Apprentice:fauld01_bn
+    100014: Apprentice:fauld02_bn
+    100016: Apprentice:global_ctrl
+    100018: Apprentice:head_bn
+    100020: Apprentice:hip_bn
+    100022: Apprentice:l_ankle_bn
+    100024: Apprentice:l_arm_bn
+    100026: Apprentice:l_clavical_bn
+    100028: Apprentice:l_elbow_bn
+    100030: Apprentice:l_elbowTwist_bn
+    100032: Apprentice:l_eyeball_bn
+    100034: Apprentice:l_index01_bn
+    100036: Apprentice:l_index02_bn
+    100038: Apprentice:l_index03_bn
+    100040: Apprentice:l_indexToe01_bn
+    100042: Apprentice:l_indexToe02_bn
+    100044: Apprentice:l_knee_bn
+    100046: Apprentice:l_lower_eyelid_bn
+    100048: Apprentice:l_mid01_bn
+    100050: Apprentice:l_mid02_bn
+    100052: Apprentice:l_mid03_bn
+    100054: Apprentice:l_midToe01_bn
+    100056: Apprentice:l_midToe02_bn
+    100058: Apprentice:l_pinky01_bn
+    100060: Apprentice:l_pinky02_bn
+    100062: Apprentice:l_pinky03_bn
+    100064: Apprentice:l_pinkyToe01_bn
+    100066: Apprentice:l_pinkyToe02_bn
+    100068: Apprentice:l_tabbard_front_bn
+    100070: Apprentice:l_thigh_bn
+    100072: Apprentice:l_thumb01_bn
+    100074: Apprentice:l_thumb02_bn
+    100076: Apprentice:l_thumb03_bn
+    100078: Apprentice:l_upper_eyelid_bn
+    100080: Apprentice:l_wrist_bn
+    100082: Apprentice:Mesh_grp
+    100084: Apprentice:purse_bn
+    100086: Apprentice:r_ankle_bn
+    100088: Apprentice:r_arm_bn
+    100090: Apprentice:r_clavical_bn
+    100092: Apprentice:r_elbow_bn
+    100094: Apprentice:r_elbowTwist_bn
+    100096: Apprentice:r_eyeball_bn
+    100098: Apprentice:r_index01_bn
+    100100: Apprentice:r_index02_bn
+    100102: Apprentice:r_index03_bn
+    100104: Apprentice:r_indexToe01_bn
+    100106: Apprentice:r_indexToe02_bn
+    100108: Apprentice:r_knee_bn
+    100110: Apprentice:r_lower_eyelid_bn
+    100112: Apprentice:r_mid01_bn
+    100114: Apprentice:r_mid02_bn
+    100116: Apprentice:r_mid03_bn
+    100118: Apprentice:r_midToe01_bn
+    100120: Apprentice:r_midToe02_bn
+    100122: Apprentice:r_pinky01_bn
+    100124: Apprentice:r_pinky02_bn
+    100126: Apprentice:r_pinky03_bn
+    100128: Apprentice:r_pinkyToe01_bn
+    100130: Apprentice:r_pinkyToe02_bn
+    100132: Apprentice:r_tabbard_front_bn
+    100134: Apprentice:r_thigh_bn
+    100136: Apprentice:r_thumb01_bn
+    100138: Apprentice:r_thumb02_bn
+    100140: Apprentice:r_thumb03_bn
+    100142: Apprentice:r_upper_eyelid_bn
+    100144: Apprentice:r_wrist_bn
+    100146: Apprentice:scarf_knot_bn
+    100148: Apprentice:tabbard_back_bn
+    100150: Apprentice:tail01_bn
+    100152: Apprentice:tail02_bn
+    100154: Apprentice:tail03_bn
+    100156: //RootNode
+    400000: Apprentice:Bind_skeleton
+    400002: Apprentice:Char03_mesh
+    400004: Apprentice:chest_bn
+    400006: Apprentice:crest_back_bn
+    400008: Apprentice:crest_front_bn
+    400010: Apprentice:crest_mid_bn
+    400012: Apprentice:fauld01_bn
+    400014: Apprentice:fauld02_bn
+    400016: Apprentice:global_ctrl
+    400018: Apprentice:head_bn
+    400020: Apprentice:hip_bn
+    400022: Apprentice:l_ankle_bn
+    400024: Apprentice:l_arm_bn
+    400026: Apprentice:l_clavical_bn
+    400028: Apprentice:l_elbow_bn
+    400030: Apprentice:l_elbowTwist_bn
+    400032: Apprentice:l_eyeball_bn
+    400034: Apprentice:l_index01_bn
+    400036: Apprentice:l_index02_bn
+    400038: Apprentice:l_index03_bn
+    400040: Apprentice:l_indexToe01_bn
+    400042: Apprentice:l_indexToe02_bn
+    400044: Apprentice:l_knee_bn
+    400046: Apprentice:l_lower_eyelid_bn
+    400048: Apprentice:l_mid01_bn
+    400050: Apprentice:l_mid02_bn
+    400052: Apprentice:l_mid03_bn
+    400054: Apprentice:l_midToe01_bn
+    400056: Apprentice:l_midToe02_bn
+    400058: Apprentice:l_pinky01_bn
+    400060: Apprentice:l_pinky02_bn
+    400062: Apprentice:l_pinky03_bn
+    400064: Apprentice:l_pinkyToe01_bn
+    400066: Apprentice:l_pinkyToe02_bn
+    400068: Apprentice:l_tabbard_front_bn
+    400070: Apprentice:l_thigh_bn
+    400072: Apprentice:l_thumb01_bn
+    400074: Apprentice:l_thumb02_bn
+    400076: Apprentice:l_thumb03_bn
+    400078: Apprentice:l_upper_eyelid_bn
+    400080: Apprentice:l_wrist_bn
+    400082: Apprentice:Mesh_grp
+    400084: Apprentice:purse_bn
+    400086: Apprentice:r_ankle_bn
+    400088: Apprentice:r_arm_bn
+    400090: Apprentice:r_clavical_bn
+    400092: Apprentice:r_elbow_bn
+    400094: Apprentice:r_elbowTwist_bn
+    400096: Apprentice:r_eyeball_bn
+    400098: Apprentice:r_index01_bn
+    400100: Apprentice:r_index02_bn
+    400102: Apprentice:r_index03_bn
+    400104: Apprentice:r_indexToe01_bn
+    400106: Apprentice:r_indexToe02_bn
+    400108: Apprentice:r_knee_bn
+    400110: Apprentice:r_lower_eyelid_bn
+    400112: Apprentice:r_mid01_bn
+    400114: Apprentice:r_mid02_bn
+    400116: Apprentice:r_mid03_bn
+    400118: Apprentice:r_midToe01_bn
+    400120: Apprentice:r_midToe02_bn
+    400122: Apprentice:r_pinky01_bn
+    400124: Apprentice:r_pinky02_bn
+    400126: Apprentice:r_pinky03_bn
+    400128: Apprentice:r_pinkyToe01_bn
+    400130: Apprentice:r_pinkyToe02_bn
+    400132: Apprentice:r_tabbard_front_bn
+    400134: Apprentice:r_thigh_bn
+    400136: Apprentice:r_thumb01_bn
+    400138: Apprentice:r_thumb02_bn
+    400140: Apprentice:r_thumb03_bn
+    400142: Apprentice:r_upper_eyelid_bn
+    400144: Apprentice:r_wrist_bn
+    400146: Apprentice:scarf_knot_bn
+    400148: Apprentice:tabbard_back_bn
+    400150: Apprentice:tail01_bn
+    400152: Apprentice:tail02_bn
+    400154: Apprentice:tail03_bn
+    400156: //RootNode
+    4300000: Apprentice:Char03_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Apprentice:Char03_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Apprentice:global_ctrl
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:crest_back_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:crest_front_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:crest_mid_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:l_eyeball_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:l_lower_eyelid_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:l_upper_eyelid_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:r_eyeball_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:r_lower_eyelid_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:r_upper_eyelid_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:head_bn/Apprentice:scarf_knot_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_index01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_index01_bn/Apprentice:l_index02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_index01_bn/Apprentice:l_index02_bn/Apprentice:l_index03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_mid01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_mid01_bn/Apprentice:l_mid02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_mid01_bn/Apprentice:l_mid02_bn/Apprentice:l_mid03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_pinky01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_pinky01_bn/Apprentice:l_pinky02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_pinky01_bn/Apprentice:l_pinky02_bn/Apprentice:l_pinky03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_thumb01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_thumb01_bn/Apprentice:l_thumb02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:l_clavical_bn/Apprentice:l_arm_bn/Apprentice:l_elbow_bn/Apprentice:l_elbowTwist_bn/Apprentice:l_wrist_bn/Apprentice:l_thumb01_bn/Apprentice:l_thumb02_bn/Apprentice:l_thumb03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_index01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_index01_bn/Apprentice:r_index02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_index01_bn/Apprentice:r_index02_bn/Apprentice:r_index03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_mid01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_mid01_bn/Apprentice:r_mid02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_mid01_bn/Apprentice:r_mid02_bn/Apprentice:r_mid03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_pinky01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_pinky01_bn/Apprentice:r_pinky02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_pinky01_bn/Apprentice:r_pinky02_bn/Apprentice:r_pinky03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_thumb01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_thumb01_bn/Apprentice:r_thumb02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:chest_bn/Apprentice:r_clavical_bn/Apprentice:r_arm_bn/Apprentice:r_elbow_bn/Apprentice:r_elbowTwist_bn/Apprentice:r_wrist_bn/Apprentice:r_thumb01_bn/Apprentice:r_thumb02_bn/Apprentice:r_thumb03_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:fauld01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:fauld01_bn/Apprentice:fauld02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_tabbard_front_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn/Apprentice:l_indexToe01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn/Apprentice:l_indexToe01_bn/Apprentice:l_indexToe02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn/Apprentice:l_midToe01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn/Apprentice:l_midToe01_bn/Apprentice:l_midToe02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn/Apprentice:l_pinkyToe01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:l_thigh_bn/Apprentice:l_knee_bn/Apprentice:l_ankle_bn/Apprentice:l_pinkyToe01_bn/Apprentice:l_pinkyToe02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:purse_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_tabbard_front_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn/Apprentice:r_indexToe01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn/Apprentice:r_indexToe01_bn/Apprentice:r_indexToe02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn/Apprentice:r_midToe01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn/Apprentice:r_midToe01_bn/Apprentice:r_midToe02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn/Apprentice:r_pinkyToe01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:r_thigh_bn/Apprentice:r_knee_bn/Apprentice:r_ankle_bn/Apprentice:r_pinkyToe01_bn/Apprentice:r_pinkyToe02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:tabbard_back_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:tail01_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:tail01_bn/Apprentice:tail02_bn
+        weight: 1
+      - path: Apprentice:global_ctrl/Apprentice:Bind_skeleton/Apprentice:hip_bn/Apprentice:tail01_bn/Apprentice:tail02_bn/Apprentice:tail03_bn
+        weight: 1
+      - path: Apprentice:Mesh_grp
+        weight: 1
+      - path: Apprentice:Mesh_grp/Apprentice:Char03_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
