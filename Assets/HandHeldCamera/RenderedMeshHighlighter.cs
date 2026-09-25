@@ -150,6 +150,7 @@ public class RenderedMeshHighlighter : MonoBehaviour
         if (!highlightEnabled || inWorldCamera == null || viewerCamera == null) return;
         if (!inWorldCamera.isActiveAndEnabled) return;
 
+        //TODO understand this at some point: the in-world camera's frustum planes are in world space, but the renderer bounds are in local space. Why does this work?
         GeometryUtility.CalculateFrustumPlanes(inWorldCamera, planes);
 
         foreach (var e in entries.Values)
