@@ -77,6 +77,16 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.feature.gameplay-storytelling": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.cinemachine": "6.6.0",
+        "com.unity.timeline": "6.6.0",
+        "com.unity.visualscripting": "1.9.12"
+      }
+    },
     "com.unity.graph-authoring": {
       "version": "1.0.0",
       "depth": 2,
@@ -267,6 +277,16 @@
         "com.unity.modules.physics2d": "1.0.0",
         "com.unity.modules.physics": "1.0.0"
       }
+    },
+    "com.unity.visualscripting": {
+      "version": "1.9.12",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

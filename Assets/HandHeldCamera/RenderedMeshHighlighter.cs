@@ -171,10 +171,12 @@ public class RenderedMeshHighlighter : MonoBehaviour
         if (e.skinned != null)
         {
             if (e.bakedMesh == null) e.bakedMesh = new Mesh { name = e.skinned.name + " (highlight bake)" };
+            // useScale: true bakes the pose in the renderer's local (unscaled) space,
+            // so it is drawn with the full localToWorld matrix - this keeps parent scale
+            // (e.g. characters imported at 0.01 and scaled x20 in the scene) correct.
             e.skinned.BakeMesh(e.bakedMesh, true);
             mesh = e.bakedMesh;
-            var t = e.skinned.transform;
-            matrix = Matrix4x4.TRS(t.position, t.rotation, Vector3.one);
+            matrix = e.skinned.localToWorldMatrix;
             subMeshCount = mesh.subMeshCount;
         }
         else
@@ -223,6 +225,7 @@ public class RenderedMeshHighlighter : MonoBehaviour
 
     private void OnGUI()
     {
+        /*
         if (!showGui) return;
 
         float scale = Mathf.Max(1f, Screen.height / 1080f);
@@ -240,5 +243,6 @@ public class RenderedMeshHighlighter : MonoBehaviour
             : $"Meshes in scene: {TotalCount}");
         GUI.enabled = true;
         GUILayout.EndArea();
+        */
     }
 }
