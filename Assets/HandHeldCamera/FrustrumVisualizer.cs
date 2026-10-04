@@ -1,23 +1,37 @@
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class FrustrumVisualizer : MonoBehaviour
 {
-    [SerializeField] private Camera localcamera; 
+    [SerializeField] private Camera localcamera;
     [SerializeField] private LineRenderer lineRenderer, linerenderer2;
 
-    private bool isOrtographic = false;
-    private List<Vector3> frustrumpositions = new List<Vector3>(8);
+    [Header("UI (optional) - synced to the camera's values at startup")]
+    [SerializeField] private Slider fovSlider;
+    [SerializeField] private Slider nearClipSlider;
+    [SerializeField] private Slider farClipSlider;
+    [SerializeField] private Toggle perspectiveToggle;
+    [SerializeField] private Toggle orthographicToggle;
 
-    public bool IsOrtographic { get => isOrtographic; set => isOrtographic = value; }
+    private readonly List<Vector3> positions = new List<Vector3>(16);
 
-    private Vector3 temp; 
+    // The camera itself is the source of truth for perspective/orthographic.
+    public bool IsOrtographic => localcamera.orthographic;
+
+    /// <summary>
+    /// Kept for the existing UI events. The argument is ignored: the camera's
+    /// own 'orthographic' flag is read instead, so the lines always match the camera.
+    /// </summary>
     public void SetPerspective(bool isortho)
     {
-        IsOrtographic = isortho;
         UpdateCameraData();
+    }
+
+    void Awake()
+    {
+        // Awake runs before SliderInfo.Start, so the value labels pick up the synced values.
+        SyncUiToCamera();
     }
 
     void Start()
@@ -25,12 +39,48 @@ public class FrustrumVisualizer : MonoBehaviour
         UpdateCameraData();
     }
 
+    void LateUpdate()
+    {
+        // Keep the lines attached to the camera if it is moved or rotated.
+        if (localcamera.transform.hasChanged)
+        {
+            localcamera.transform.hasChanged = false;
+            UpdateCameraData();
+        }
+    }
+
+    /// <summary>
+    /// Makes the sliders/toggles show the camera's actual settings. If a camera value
+    /// is outside a slider's range, the clamped slider value is written back to the camera.
+    /// </summary>
+    private void SyncUiToCamera()
+    {
+        if (fovSlider != null)
+        {
+            fovSlider.SetValueWithoutNotify(localcamera.fieldOfView);
+            localcamera.fieldOfView = fovSlider.value;
+        }
+        if (nearClipSlider != null)
+        {
+            nearClipSlider.SetValueWithoutNotify(localcamera.nearClipPlane);
+            localcamera.nearClipPlane = nearClipSlider.value;
+        }
+        if (farClipSlider != null)
+        {
+            farClipSlider.SetValueWithoutNotify(localcamera.farClipPlane);
+            localcamera.farClipPlane = farClipSlider.value;
+        }
+        if (perspectiveToggle != null) perspectiveToggle.SetIsOnWithoutNotify(!localcamera.orthographic);
+        if (orthographicToggle != null) orthographicToggle.SetIsOnWithoutNotify(localcamera.orthographic);
+    }
+
     public void UpdateCameraData()
     {
-        if(IsOrtographic)
+        if (IsOrtographic)
         {
             SetupOrthographicCameraFrustum();
-        } else
+        }
+        else
         {
             SetupPerspectiveCameraFrustum();
         }
@@ -38,119 +88,45 @@ public class FrustrumVisualizer : MonoBehaviour
 
     private void SetupOrthographicCameraFrustum()
     {
+        float halfHeight = localcamera.orthographicSize;
+        float halfWidth = halfHeight * localcamera.aspect;
 
-        float height = localcamera.orthographicSize * 2f;
-        float width = height * localcamera.aspect;
-
-    Vector3 neartopleft, neartopright, nearbottomright, nearbottomleft;
-    Vector3 fartopleft, fartopright, farbottomright, farbottomleft;
-
-    neartopleft.x = localcamera.transform.position.x - width * 0.5f;
-    neartopleft.y = localcamera.transform.position.y + height * 0.5f;
-    neartopleft.z = localcamera.transform.position.z + localcamera.nearClipPlane;
-
-    neartopright.x = localcamera.transform.position.x + width * 0.5f;
-    neartopright.y = localcamera.transform.position.y + height * 0.5f;
-    neartopright.z = localcamera.transform.position.z + localcamera.nearClipPlane;
-
-    nearbottomright.x = localcamera.transform.position.x + width * 0.5f;
-    nearbottomright.y = localcamera.transform.position.y - height * 0.5f;
-    nearbottomright.z = localcamera.transform.position.z + localcamera.nearClipPlane;
-
-    nearbottomleft.x = localcamera.transform.position.x - width * 0.5f;
-    nearbottomleft.y = localcamera.transform.position.y - height * 0.5f;
-    nearbottomleft.z = localcamera.transform.position.z + localcamera.nearClipPlane;
-
-    fartopleft.x = localcamera.transform.position.x - width * 0.5f;
-    fartopleft.y = localcamera.transform.position.y + height * 0.5f;
-    fartopleft.z = localcamera.transform.position.z + localcamera.farClipPlane;
-
-    fartopright.x = localcamera.transform.position.x + width * 0.5f;
-    fartopright.y = localcamera.transform.position.y + height * 0.5f;
-    fartopright.z = localcamera.transform.position.z + localcamera.farClipPlane;
-
-    farbottomright.x = localcamera.transform.position.x + width * 0.5f;
-    farbottomright.y = localcamera.transform.position.y - height * 0.5f;
-    farbottomright.z = localcamera.transform.position.z + localcamera.farClipPlane;
-
-    farbottomleft.x = localcamera.transform.position.x - width * 0.5f;
-    farbottomleft.y = localcamera.transform.position.y - height * 0.5f;
-    farbottomleft.z = localcamera.transform.position.z + localcamera.farClipPlane;
-
-    List<Vector3> positions = new List<Vector3>();
-
-    positions.Add(neartopleft);
-    positions.Add(neartopright);
-    positions.Add(nearbottomright);
-    positions.Add(nearbottomleft);
-    positions.Add(neartopleft);
-    positions.Add(fartopleft);
-    positions.Add(fartopright);
-    positions.Add(farbottomright);
-    positions.Add(farbottomleft);
-    positions.Add(fartopleft);
-    positions.Add(fartopright);
-    positions.Add(neartopright);
-    positions.Add(nearbottomright);
-    positions.Add(farbottomright);
-    positions.Add(farbottomleft);
-    positions.Add(nearbottomleft);
-
-    UpdateLine(positions);
-
+        BuildFrustum(halfWidth, halfHeight, localcamera.nearClipPlane,
+                     halfWidth, halfHeight, localcamera.farClipPlane);
     }
 
     private void SetupPerspectiveCameraFrustum()
     {
-        float nearHeight = 2f * Mathf.Tan(localcamera.fieldOfView * 0.5f * Mathf.Deg2Rad) * localcamera.nearClipPlane;
+        float tanHalfFov = Mathf.Tan(localcamera.fieldOfView * 0.5f * Mathf.Deg2Rad);
 
-        float nearWidth = nearHeight * localcamera.aspect;
+        float nearHalfHeight = tanHalfFov * localcamera.nearClipPlane;
+        float nearHalfWidth = nearHalfHeight * localcamera.aspect;
 
-        float farHeight = 2f * Mathf.Tan(localcamera.fieldOfView * 0.5f * Mathf.Deg2Rad) * localcamera.farClipPlane; 
+        float farHalfHeight = tanHalfFov * localcamera.farClipPlane;
+        float farHalfWidth = farHalfHeight * localcamera.aspect;
 
-        float farWidth = farHeight * localcamera.aspect;
+        BuildFrustum(nearHalfWidth, nearHalfHeight, localcamera.nearClipPlane,
+                     farHalfWidth, farHalfHeight, localcamera.farClipPlane);
+    }
 
-        Debug.Log("Cameraplanes updated: Near Height : " + nearHeight + " near width: " + nearWidth + " far height: " + farHeight + " far width: " + farWidth); 
+    /// <summary>
+    /// Builds the 8 frustum corners in the camera's own space (right/up/forward),
+    /// so the lines follow the camera's rotation, and connects them as one line strip.
+    /// </summary>
+    private void BuildFrustum(float nearHalfWidth, float nearHalfHeight, float near,
+                              float farHalfWidth, float farHalfHeight, float far)
+    {
+        Vector3 neartopleft     = GetPoint(-nearHalfWidth,  nearHalfHeight, near);
+        Vector3 neartopright    = GetPoint( nearHalfWidth,  nearHalfHeight, near);
+        Vector3 nearbottomright = GetPoint( nearHalfWidth, -nearHalfHeight, near);
+        Vector3 nearbottomleft  = GetPoint(-nearHalfWidth, -nearHalfHeight, near);
 
-        Vector3 neartopleft, neartopright, nearbottomright, nearbottomleft; 
-        Vector3 fartopleft, fartopright, farbottomright, farbottomleft;
+        Vector3 fartopleft      = GetPoint(-farHalfWidth,  farHalfHeight, far);
+        Vector3 fartopright     = GetPoint( farHalfWidth,  farHalfHeight, far);
+        Vector3 farbottomright  = GetPoint( farHalfWidth, -farHalfHeight, far);
+        Vector3 farbottomleft   = GetPoint(-farHalfWidth, -farHalfHeight, far);
 
-        neartopleft.x = localcamera.transform.position.x - nearWidth * 0.5f; 
-        neartopleft.y = localcamera.transform.position.y + nearHeight * .5f;
-        neartopleft.z = localcamera.transform.position.z + localcamera.nearClipPlane; 
-
-        neartopright.x = localcamera.transform.position.x + nearWidth * .5f;
-        neartopright.y = localcamera.transform.position.y + nearHeight * .5f;
-        neartopright.z = localcamera.transform.position.z + localcamera.nearClipPlane; 
-
-        nearbottomright.x = localcamera.transform.position.x + nearWidth * 0.5f;
-        nearbottomright.y = localcamera.transform.position.y - nearHeight * .5f; 
-        nearbottomright.z = localcamera.transform.position.z + localcamera.nearClipPlane;
-
-        nearbottomleft.x = localcamera.transform.position.x - nearWidth * 0.5f;
-        nearbottomleft.y = localcamera.transform.position.y - nearHeight * .5f; 
-        nearbottomleft.z = localcamera.transform.position.z + localcamera.nearClipPlane;
-
-
-        fartopleft.x = localcamera.transform.position.x - farWidth * 0.5f; 
-        fartopleft.y = localcamera.transform.position.y + farHeight * .5f;
-        fartopleft.z = localcamera.transform.position.z + localcamera.farClipPlane; 
-
-        fartopright.x = localcamera.transform.position.x + farWidth * .5f;
-        fartopright.y = localcamera.transform.position.y + farHeight * .5f;
-        fartopright.z = localcamera.transform.position.z + localcamera.farClipPlane; 
-
-        farbottomright.x = localcamera.transform.position.x + farWidth * 0.5f;
-        farbottomright.y = localcamera.transform.position.y - farHeight * .5f; 
-        farbottomright.z = localcamera.transform.position.z + localcamera.farClipPlane;
-
-        farbottomleft.x = localcamera.transform.position.x - farWidth * 0.5f;
-        farbottomleft.y = localcamera.transform.position.y - farHeight * .5f; 
-        farbottomleft.z = localcamera.transform.position.z + localcamera.farClipPlane;
-
-
-        List<Vector3> positions = new List<Vector3>();
-
+        positions.Clear();
         positions.Add(neartopleft);
         positions.Add(neartopright);
         positions.Add(nearbottomright);
@@ -161,35 +137,27 @@ public class FrustrumVisualizer : MonoBehaviour
         positions.Add(farbottomright);
         positions.Add(farbottomleft);
         positions.Add(fartopleft);
-        //test overdraw
         positions.Add(fartopright);
         positions.Add(neartopright);
         positions.Add(nearbottomright);
-        positions.Add(farbottomright);   
+        positions.Add(farbottomright);
         positions.Add(farbottomleft);
         positions.Add(nearbottomleft);
 
-        UpdateLine(positions); 
+        UpdateLine(positions);
+    }
+
+    private Vector3 GetPoint(float x, float y, float z)
+    {
+        Transform t = localcamera.transform;
+        return t.position + t.right * x + t.up * y + t.forward * z;
     }
 
     private void UpdateLine(List<Vector3> list)
     {
-        
+        lineRenderer.useWorldSpace = true;
         lineRenderer.positionCount = list.Count;
-        lineRenderer.SetPositions(list.ToArray());
-
+        for (int i = 0; i < list.Count; i++)
+            lineRenderer.SetPosition(i, list[i]);
     }
-
-/*
-    Vector3 GetPoint(float halfWidth, float halfHeight, float z)
-    {
-    return localcamera.transform.position
-         + localcamera.transform.right   * halfWidth
-         + localcamera.transform.up      * halfHeight
-         + localcamera.transform.forward * z;
-    }
-    */
-
-
-
 }
