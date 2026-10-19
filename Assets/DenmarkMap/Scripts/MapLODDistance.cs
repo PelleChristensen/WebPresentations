@@ -50,27 +50,33 @@ namespace DenmarkMap
                 return;
             _lastFov = fov; _lastBias = bias; _lastScale = transform.lossyScale;
 
-            float halfTan = Mathf.Tan(0.5f * fov * Mathf.Deg2Rad);
             foreach (var g in _groups)
+                ApplyDistances(g, lod0Distance, lod1Distance, neverCull, fov);
+        }
+
+        /// <summary>
+        /// Sets a LODGroup's screen-relative transitions so LOD0 is used closer than d0, LOD1 closer than d1
+        /// and the last LOD beyond (never culled if neverCull). Shared by map tiles and props.
+        /// </summary>
+        public static void ApplyDistances(LODGroup g, float d0, float d1, bool neverCull, float fov)
+        {
+            if (g == null) return;
+            var lods = g.GetLODs();
+            if (lods.Length == 0) return;
+            float halfTan = Mathf.Tan(0.5f * fov * Mathf.Deg2Rad);
+            float bias = QualitySettings.lodBias;
+            Vector3 s = g.transform.lossyScale;
+            float size = g.size * Mathf.Max(Mathf.Abs(s.x), Mathf.Abs(s.y), Mathf.Abs(s.z));
+            float[] d = { d0, d1 };
+            for (int i = 0; i < lods.Length; i++)
             {
-                if (g == null) continue;
-                var lods = g.GetLODs();
-                if (lods.Length == 0) continue;
-                // world-space size Unity uses for the group
-                Vector3 s = g.transform.lossyScale;
-                float size = g.size * Mathf.Max(Mathf.Abs(s.x), Mathf.Abs(s.y), Mathf.Abs(s.z));
-                float[] d = { lod0Distance, lod1Distance };
-                for (int i = 0; i < lods.Length; i++)
-                {
-                    float h;
-                    if (i < d.Length) h = size * bias / (2f * d[i] * halfTan);
-                    else h = neverCull ? 0.0001f : size * bias / (2f * 6f * halfTan);
-                    // transitions must be strictly decreasing
-                    if (i > 0) h = Mathf.Min(h, lods[i - 1].screenRelativeTransitionHeight - 0.0001f);
-                    lods[i].screenRelativeTransitionHeight = Mathf.Clamp(h, 0.00005f, 0.9999f);
-                }
-                g.SetLODs(lods);
+                float h;
+                if (i < d.Length) h = size * bias / (2f * d[i] * halfTan);
+                else h = neverCull ? 0.0001f : size * bias / (2f * 6f * halfTan);
+                if (i > 0) h = Mathf.Min(h, lods[i - 1].screenRelativeTransitionHeight - 0.00001f);
+                lods[i].screenRelativeTransitionHeight = Mathf.Clamp(h, 0.000005f, 0.9999f);
             }
+            g.SetLODs(lods);
         }
     }
 }
